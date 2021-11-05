@@ -1,5 +1,5 @@
 {
-  "name": "products",
+  "name": "container",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,5 +13,7 @@
   "devDependencies": {
     "snowpack": "^3.8.8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "faker": "^5.1.0"
+  }
 }
