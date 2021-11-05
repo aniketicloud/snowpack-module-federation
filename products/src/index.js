@@ -1,9 +1,10 @@
-import { helloWorld } from "./hello-world.js";
+import faker from "faker";
 
-helloWorld();
+let products = "";
 
-import confetti from "canvas-confetti";
-confetti.create(document.getElementById("canvas"), {
-  resize: true,
-  useWorker: true,
-})({ particleCount: 200, spread: 200 });
+for (let i = 0; i < 3; i++) {
+  const name = faker.commerce.productName();
+  products += `<div>${name}</div>`;
+}
+
+console.log(products);
