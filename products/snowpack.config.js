@@ -5,8 +5,10 @@
 module.exports = {
   mode: "development",
   mount: {
+    // directory name: 'build directory'
+    public: '/',
     // get everything form src to build
-    src: "/",
+    src: "/dist",
   },
   plugins: [
     /* ... */
