@@ -3,6 +3,7 @@
 
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
+  mode: "development",
   mount: {
     // get everything form src to build
     src: "/",
